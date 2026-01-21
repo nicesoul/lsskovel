@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'mazzard_h_semi_bold';
+	src:url('/data/шрифти/MazzardH-SemiBold_Web/MazzardH-SemiBold.woff2') format('WOFF2'),
+	    url('/data/шрифти/MazzardH-SemiBold_Web/MazzardH-SemiBold.woff') format('WOFF');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'mazzard_m_light';
+	src:url('/data/шрифти/MazzardM-Light_Web/MazzardM-Light.woff2') format('WOFF2'),
+		  url('/data/шрифти/MazzardM-Light_Web/MazzardM-Light.woff') format('WOFF');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html{
+  font-size: 20px;
+  font-family: 'mazzard_m_light';
+  --about-us_column-width: 532px;
+}

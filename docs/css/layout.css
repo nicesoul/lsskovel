@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* this custom property to rely on Anna photo's width as it is the lowest quality of three */
+:root{
+  --about-us_column-width: 532px;
+}
+section, h3, h4, p{
+  padding: 10px 30px;
+}
+.about-us-cards{
+  /* border: 1px solid black; */
+}
+.columns-2 {
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+img {
+  display: block;
+  /* border: 1px solid orange; */
+  min-width: 100px;
+  max-width: min(40vw,var(--about-us_column-width));
+  background-color: beige;
+}
+p{
+  max-width: min(80ch,var(--about-us_column-width));
+}
